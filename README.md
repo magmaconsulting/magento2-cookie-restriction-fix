@@ -2,7 +2,7 @@
 
 In order to comply with European Cookie Law we have to enable Magento Cookie Restriction Mode.
 
-By enabling Cookie Restrcition Mode Magento 2.1.x does not show Google Analytics Tracking code even if user allow cookies.
+By enabling Cookie Restriction Mode Magento 2.1.x does not show Google Analytics Tracking code even if user allow cookies.
 
 This is due to bug #5596 (<https://github.com/magento/magento2/issues/5596>) affecting magento 2.1.x versions.
 
