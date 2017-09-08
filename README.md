@@ -8,15 +8,15 @@ This is due to bug #5596 (<https://github.com/magento/magento2/issues/5596>) aff
 
 This modules fix the issue and enable Google Analytics if user gives consent.
 
-Not only Magento Google Analytics module benefits from this fix, but also every module using the standard Magento module Cookie. 
+Not only Magento Google Analytics module benefits from this fix, but also every module using the standard Magento module Cookie.
 
-## Installation 
+## Installation
 
 Install module:
 
 ```bash
 composer config repositories.magento2-cookie-restriction-fix git https://github.com/magma/magento2-cookie-restriction-fix.git
-composer require magma/magento2-cookie-restriction-fix:dev-master
+composer require magma/magento2-cookie-restriction-fix
 ```
 
 Enable module:
@@ -30,7 +30,7 @@ Enable module:
 
 In order to comply with Cookie Law every third-party module should block tracking cookies unless the user accepts to save them.
 
-Standard Magento Module Cookie Restriction Mode is meant to do so. 
+Standard Magento Module Cookie Restriction Mode is meant to do so.
 
 Third party developers can use this mechanism by checking the condition `isUserNotAllowSaveCookie` provided by the module Magento_Cookie.
 
