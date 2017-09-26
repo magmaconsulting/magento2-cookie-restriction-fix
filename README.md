@@ -6,7 +6,7 @@ By enabling Cookie Restriction Mode Magento 2.1.x does not show Google Analytics
 
 This is due to bug #5596 (<https://github.com/magento/magento2/issues/5596>) affecting magento 2.1.x versions.
 
-This modules fix the issue and enable Google Analytics if user gives consent.
+This module fixes the issue and enable Google Analytics if user gives consent.
 
 Not only Magento Google Analytics module benefits from this fix, but also every module using the standard Magento module Cookie.
 
